@@ -2,7 +2,7 @@
 
 A curated list of various learning resources for computer graphics on mobile devices.
 
-- [Fundamental](#fundamental)
+- [Fundamentals](#fundamental)
 - [Best Practices](#best-practices)
   - [OpenGL ES](#opengl-es)
   - [Vulkan](#vulkan)
@@ -21,7 +21,7 @@ A curated list of various learning resources for computer graphics on mobile dev
   - [Unreal](#unreal)
   - [Unity](#unity)
 
-# Fundamental
+# Fundamentals
 
 * [GPU Framebuffer Memory: Understanding Tiling](https://developer.samsung.com/game/gpu-framebuffer) - A clear explanation with step-by-step animation.
 * [Tile-based Rendering](https://developer.arm.com/solutions/graphics-and-gaming/developer-guides/learn-the-basics/tile-based-rendering/single-page) - A concise introduction to different rendering architectures with brief comparative analysis.
@@ -48,11 +48,14 @@ A curated list of various learning resources for computer graphics on mobile dev
 
 ## Arm Mali
 
+* [Mali GPU Training](https://developer.arm.com/solutions/graphics-and-gaming/arm-mali-gpu-training) - A comprehensive training series from mobile graphics fundamentals to performance analysis.
 * [Graphics and Gaming Development](https://developer.arm.com/solutions/graphics-and-gaming) - Official Mali developer resources.
 * [Arm Mali GPU Best Practices Developer Guide](https://developer.arm.com/documentation/101897/latest) - A complete guide for Mali graphics programming with OpenGL ES and Vulkan.
 * [Mali GPU OpenGL ES 3.x Developer Guide](https://developer.arm.com/documentation/100587/0100/introduction) - An introductory guide for Pixel Local Storage, ASTC, and other 3.x features.
 * [Understanding Render Passes](https://developer.arm.com/documentation/102479/0100) - Practical guides for efficient render passes with Vulkan and OpenGL ES.
 * [The Benefits of Buffer Packing](https://developer.arm.com/solutions/graphics-and-gaming/developer-guides/learn-the-basics/the-benefits-of-buffer-packing/single-page) - Several performance tips related to bandwidth usage saving.
+* [Using asynchronous compute on Arm Mali GPUs: A practical sample](https://community.arm.com/developer/tools-software/graphics/b/blog/posts/using-asynchronous-compute-on-arm-mali-gpus) by Hans-Kristian Arntzen - An informative introduction to async-compute scheduling on Mali devices.
+* [Deferred shading on mobile: An API overview](https://community.arm.com/developer/tools-software/graphics/b/blog/posts/deferred-shading-on-mobile) by Hans-Kristian Arntzen - A crisp introduction to bandwidth saving techniques on deferred shading with various API options.
 
 ## Qualcomm Adreno
 
@@ -61,6 +64,7 @@ A curated list of various learning resources for computer graphics on mobile dev
 ## Imagination PowerVR
 
 * [Architecture Guides.](https://github.com/powervr-graphics/Native_SDK/tree/master/docs/Architecture%20Guides)
+* [Performance Recommendations](https://docs.imgtec.com/Profiling_and_Optimisations/PerfRec/topics/c_PerfRec_introduction.html) - An informative recommendations range from high-level effect techniques to low-level GLSL optimization.
 
 
 ## Apple
@@ -74,6 +78,8 @@ A curated list of various learning resources for computer graphics on mobile dev
 * [Moving Mobile Graphics,](https://community.arm.com/graphics/b/blog/posts/moving-mobile-graphics) SIGGRAPH Course Notes - Technical and inspirational talks from practitioners at the forefront.
   * Video recording: [2020,](https://www.youtube.com/watch?v=wOBCWZJq6zs) [2018,](https://dl.acm.org/doi/10.1145/3214834.3214857) [2016,](https://dl.acm.org/doi/10.1145/2897826.2927312) [2015.](https://dl.acm.org/doi/10.1145/2776880.2787664)
 * [Event Archive from Galaxy GameDev](https://developer.samsung.com/galaxy-gamedev/event-archive.html) - Quite a few collected slides and videos from conference talks at GDC, Unreal Summit, Unity Unite, etc.
+* Vulkanised - Informative best and worst practices from game devs pioneering with Vulkan
+  * Video recordings: [2019, ](https://www.khronos.org/developers/library/2019-vulkanised-is-back) [2017.](https://www.khronos.org/events/vulkanised-experience-from-game-devs-pioneering-with-vulkan1)
 
 # Sample Code
 
