@@ -2,7 +2,7 @@
 
 A curated list of various learning resources for computer graphics on mobile devices.
 
-- [Fundamentals](#fundamental)
+- [Fundamentals](#fundamentals)
 - [Best Practices](#best-practices)
   - [OpenGL ES](#opengl-es)
   - [Vulkan](#vulkan)
@@ -54,12 +54,12 @@ A curated list of various learning resources for computer graphics on mobile dev
 * [Mali GPU OpenGL ES 3.x Developer Guide](https://developer.arm.com/documentation/100587/0100/introduction) - An introductory guide for Pixel Local Storage, ASTC, and other 3.x features.
 * [Understanding Render Passes](https://developer.arm.com/documentation/102479/0100) - Practical guides for efficient render passes with Vulkan and OpenGL ES.
 * [The Benefits of Buffer Packing](https://developer.arm.com/solutions/graphics-and-gaming/developer-guides/learn-the-basics/the-benefits-of-buffer-packing/single-page) - Several performance tips related to bandwidth usage saving.
-* [Using asynchronous compute on Arm Mali GPUs: A practical sample](https://community.arm.com/developer/tools-software/graphics/b/blog/posts/using-asynchronous-compute-on-arm-mali-gpus) by Hans-Kristian Arntzen - An informative introduction to async-compute scheduling on Mali devices.
-* [Deferred shading on mobile: An API overview](https://community.arm.com/developer/tools-software/graphics/b/blog/posts/deferred-shading-on-mobile) by Hans-Kristian Arntzen - A crisp introduction to bandwidth saving techniques on deferred shading with various API options.
+* [Using Asynchronous Compute on Arm Mali GPUs: A Practical Sample](https://community.arm.com/developer/tools-software/graphics/b/blog/posts/using-asynchronous-compute-on-arm-mali-gpus) by Hans-Kristian Arntzen - An informative introduction to async-compute scheduling on Mali devices.
+* [Deferred Shading on Mobile: An API Overview](https://community.arm.com/developer/tools-software/graphics/b/blog/posts/deferred-shading-on-mobile) by Hans-Kristian Arntzen - A crisp introduction to bandwidth saving techniques on deferred shading with various API options.
 
 ## Qualcomm Adreno
 
-* [Game Developer Guides.](https://developer.qualcomm.com/docs/adreno-gpu/developer-guide/gpu/gpu.html)
+* [Game Developer Guides.](https://developer.qualcomm.com/sites/default/files/docs/adreno-gpu/developer-guide/)
 
 ## Imagination PowerVR
 
@@ -69,14 +69,14 @@ A curated list of various learning resources for computer graphics on mobile dev
 
 ## Apple
 
-* [Metal video learning resources.](https://developer.apple.com/videos/graphics-and-games/metal)
+* [Metal Video Learning Resources.](https://developer.apple.com/videos/graphics-and-games/metal)
 * [Modern Rendering with Metal](https://developer.apple.com/videos/play/wwdc2019/601/) - Demonstration of how to apply Metal features to implement deferred and tiled-forward rendering.
 <!-- * [Ray Tracing with Metal](https://developer.apple.com/videos/play/wwdc2019/613/) -->
 
 # Conferences
 
 * [Moving Mobile Graphics,](https://community.arm.com/graphics/b/blog/posts/moving-mobile-graphics) SIGGRAPH Course Notes - Technical and inspirational talks from practitioners at the forefront.
-  * Video recording: [2020,](https://www.youtube.com/watch?v=wOBCWZJq6zs) [2018,](https://dl.acm.org/doi/10.1145/3214834.3214857) [2016,](https://dl.acm.org/doi/10.1145/2897826.2927312) [2015.](https://dl.acm.org/doi/10.1145/2776880.2787664)
+  * Video recordings: [2020,](https://www.youtube.com/watch?v=wOBCWZJq6zs) [2018,](https://dl.acm.org/doi/10.1145/3214834.3214857) [2016,](https://dl.acm.org/doi/10.1145/2897826.2927312) [2015.](https://dl.acm.org/doi/10.1145/2776880.2787664)
 * [Event Archive from Galaxy GameDev](https://developer.samsung.com/galaxy-gamedev/event-archive.html) - Quite a few collected slides and videos from conference talks at GDC, Unreal Summit, Unity Unite, etc.
 * Vulkanised - Informative best and worst practices from game devs pioneering with Vulkan
   * Video recordings: [2019, ](https://www.khronos.org/developers/library/2019-vulkanised-is-back) [2017.](https://www.khronos.org/events/vulkanised-experience-from-game-devs-pioneering-with-vulkan1)
@@ -87,22 +87,32 @@ A curated list of various learning resources for computer graphics on mobile dev
 
 * [Mali OpenGL ES SDK for Android.](https://github.com/ARM-software/opengl-es-sdk-for-android)
 * [Adreno SDK for OpenGL ES.](https://developer.qualcomm.com/docs/adreno-gpu/developer-guide/components/asdkgles.html)
+* [PowerVR OpenGL ES Examples.](https://github.com/powervr-graphics/Native_SDK/tree/master/examples/OpenGLES)
 
 ## Vulkan
 
 * [Vulkan Samples](https://github.com/KhronosGroup/Vulkan-Samples) - Educational source code with informative explanation for developing optimized Vulkan application.
 * [Android Vulkan Tutorial](https://github.com/googlesamples/android-vulkan-tutorials) - Beginner guide to develop Vulkan sample with Android Studio.
+* [PowerVR Vulkan Examples.](https://github.com/powervr-graphics/Native_SDK/tree/master/examples/Vulkan)
 
 # Profiling & Debugging
 
 * [RenderDoc](https://renderdoc.org/) ([video tutorials](https://youtube.com/playlist?list=PLWziqE5d25dXo1IE150YJiPT9EIW8ymta)) - A lightweight, reliable and developer friendly debugger for quick frame diagnosis.
 * [Principles of High Performance](https://developer.arm.com/solutions/graphics-and-gaming/developer-guides/learn-the-basics/principles-of-high-performance/single-page) - Core ideas for mobile app optimization.
-* [Optimization checklist](https://developer.arm.com/documentation/dui0555/b/optimization-checklist/the-checklist?lang=en) - A handy checklist for common performance bottlenecks.
+* [Optimization Checklist](https://developer.arm.com/documentation/dui0555/b/optimization-checklist/the-checklist?lang=en) - A handy checklist for common performance bottlenecks.
 
 ## Android
 
-* [Android GPU Inspector](https://gpuinspector.dev/) - A unified profiler for various GPU IP on Android.
-* [Perfetto](https://perfetto.dev/docs/) - An open-source stack for system profiling, app tracing and trace analysis.
+* [Game Development Guides on Android,](https://developer.android.com/games/guides) including tools, libraries, best practices, etc.
+* [Modern Android Development Skills on Performance](https://www.youtube.com/playlist?list=PLWz5rJ2EKKc-xjSI-rWn9SViXivBhQUnp) - A video series of brief overviews on various profiling tools on Android.
+* [Android GPU Inspector](https://developer.android.com/agi) - A unified profiler for various GPU IPs on Android.
+  * [Analyze a System Trace](https://developer.android.com/agi/sys-trace/long) - A comprehensive tutorial of system inspection.
+* [System Tracing](https://developer.android.com/topic/performance/tracing)
+  * [Android Profiler](https://developer.android.google.cn/studio/profile/android-profiler) - Tools for inspecting usage of CPU, memory, network, and battery resources.
+  * [Systrace for Games](https://www.youtube.com/watch?v=4oAlB-3tkqc) by Tim Murray - An introductory video tutorial with case studies.
+  * [Improve Game Performance on Android](https://developer.android.com/games/optimize#improve-performance-areas) - Tips for identifying and improving various aspects of common performance concerns in mobile games.
+<!-- * [Perfetto](https://perfetto.dev/docs/) - An open-source stack for system profiling, app tracing and trace analysis. -->
+<!-- * [Android Game Development Extension for Visual Studio](https://developer.android.com/games/agde/quickstart?hl=en) -->
 
 ## Mali
 * [Arm Mobile Studio](https://developer.arm.com/tools-and-software/graphics-and-gaming/arm-mobile-studio) ([video tutorial](https://www.youtube.com/watch?v=gcxIuwBZyic)) - A developer suite contains graphics analyzer, GPU profiler and performance advisor.
@@ -116,7 +126,8 @@ A curated list of various learning resources for computer graphics on mobile dev
 ## Adreno
 
 * [Snapdragon Profiler.](https://developer.qualcomm.com/software/snapdragon-profiler)
-* [Available functionality for supported texture format.](https://developer.qualcomm.com/docs/adreno-gpu/developer-guide/gpu/spec_sheets.html#texture-formats)
+* [Available Functionality for Supported Texture Format.](https://developer.qualcomm.com/sites/default/files/docs/adreno-gpu/developer-guide/gpu/spec_sheets.html#texture-formats)
+<!-- * [Identify Application Bottlenecks.](https://developer.qualcomm.com/sites/default/files/docs/adreno-gpu/developer-guide/tutorials/android/identify_application_bottlenecks.html) -->
 
 ## Unreal
 
@@ -126,6 +137,6 @@ A curated list of various learning resources for computer graphics on mobile dev
 
 ## Unity
 
-* [Introduction to profiling in Unity](https://www.youtube.com/watch?v=uXRURWwabF4) by Ciro Continisio - A beginner tutorial on CPU profiler and frame debugger.
-* [Tackling profiling for mobile games with Unity and Arm](https://blogs.unity3d.com/2021/03/11/tackling-profiling-for-mobile-games-with-unity-and-arm/) by Mark Harkness - A crisp introduction to mobile game optimization with various tools.
+* [Introduction to Profiling in Unity](https://www.youtube.com/watch?v=uXRURWwabF4) by Ciro Continisio - A beginner tutorial on CPU profiler and frame debugger.
+* [Tackling Profiling for Mobile Games with Unity and Arm](https://blogs.unity3d.com/2021/03/11/tackling-profiling-for-mobile-games-with-unity-and-arm/) by Mark Harkness - A crisp introduction to mobile game optimization with various tools.
 * [Better Together: Integrating Arm Mobile Studio with Unity](https://community.arm.com/developer/tools-software/graphics/b/blog/posts/integrating-arm-mobile-studio-with-unity) by Geraint North - A concrete example of how Streamline annotations make better data interpretation.
