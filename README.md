@@ -81,7 +81,7 @@ A curated list of various learning resources for computer graphics on mobile dev
   * Video recordings: [2020,](https://www.youtube.com/watch?v=wOBCWZJq6zs) [2018,](https://dl.acm.org/doi/10.1145/3214834.3214857) [2016,](https://dl.acm.org/doi/10.1145/2897826.2927312) [2015.](https://dl.acm.org/doi/10.1145/2776880.2787664)
 * [Event Archive from Galaxy GameDev](https://developer.samsung.com/galaxy-gamedev/event-archive.html) - Quite a few collected slides and videos from conference talks at GDC, Unreal Summit, Unity Unite, etc.
 * Vulkanised - Informative best and worst practices from game devs pioneering with Vulkan
-  * Video recordings: [2019, ](https://www.khronos.org/developers/library/2019-vulkanised-is-back) [2017.](https://www.khronos.org/events/vulkanised-experience-from-game-devs-pioneering-with-vulkan1)
+  * Video recordings: [2022,](https://www.khronos.org/events/vulkanised-webinar-february-2022) [2021,](https://www.khronos.org/events/vulkanised-2021) [2019,](https://www.khronos.org/developers/library/2019-vulkanised-is-back) [2017.](https://www.khronos.org/events/vulkanised-experience-from-game-devs-pioneering-with-vulkan1)
 
 # Sample Code
 
