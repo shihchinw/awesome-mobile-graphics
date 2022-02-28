@@ -60,6 +60,8 @@ A curated list of various learning resources for computer graphics on mobile dev
 ## Qualcomm Adreno
 
 * [Game Developer Guides.](https://developer.qualcomm.com/sites/default/files/docs/adreno-gpu/developer-guide/)
+  * [Practical Shader Optimization Tips on Adreno Architectures.](https://developer.qualcomm.com/sites/default/files/docs/adreno-gpu/developer-guide/gpu/best_practices_shaders.html)
+* [OpenCL General Programming and Optimization Guide.](https://developer.qualcomm.com/download/adrenosdk/adreno-opencl-programming-guide.pdf)
 
 ## Imagination PowerVR
 
@@ -86,7 +88,7 @@ A curated list of various learning resources for computer graphics on mobile dev
 ## OpenGL ES
 
 * [Mali OpenGL ES SDK for Android.](https://github.com/ARM-software/opengl-es-sdk-for-android)
-* [Adreno SDK for OpenGL ES.](https://developer.qualcomm.com/docs/adreno-gpu/developer-guide/components/asdkgles.html)
+* [Adreno SDK for OpenGL ES.](https://developer.qualcomm.com/sites/default/files/docs/adreno-gpu/developer-guide/components/asdkgles.html)
 * [PowerVR OpenGL ES Examples.](https://github.com/powervr-graphics/Native_SDK/tree/master/examples/OpenGLES)
 
 ## Vulkan
