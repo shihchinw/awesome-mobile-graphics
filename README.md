@@ -123,7 +123,7 @@ A curated list of various learning resources for computer graphics on mobile dev
 * [Workload Pipelining](https://developer.arm.com/solutions/graphics-and-gaming/developer-guides/learn-the-basics/workload-pipelining/single-page) - A clear illustration of various pipeline bottlenecks.
 * [Frame Pipelining](https://community.arm.com/developer/tools-software/graphics/b/blog/posts/the-mali-gpu-an-abstract-machine-part-1---frame-pipelining) by Peter Harris - A lucid explanation of   asynchronous execution of rendering pipeline beneath GL APIs.
 * [Mali GPU Performance Counters.](https://developer.arm.com/ip-products/graphics-and-multimedia/mali-gpus/mali-performance-counters)
-* [Mali GPU Datasheet.](https://developer.arm.com/solutions/graphics-and-gaming)
+* [Mali GPU Datasheet.](https://developer.arm.com/documentation/102849/0100/?lang=en)
 
 ## Adreno
 
