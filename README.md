@@ -65,7 +65,7 @@ A curated list of various learning resources for computer graphics on mobile dev
 
 ## Imagination PowerVR
 
-* [Architecture Guides.](https://github.com/powervr-graphics/Native_SDK/tree/master/docs/Architecture%20Guides)
+* [Architecture Guides.](https://github.com/powervr-graphics/Native_SDK/tree/R21.1-v5.7/docs/Architecture%20Guides)
 * [Performance Recommendations](https://docs.imgtec.com/Profiling_and_Optimisations/PerfRec/topics/c_PerfRec_introduction.html) - An informative recommendations range from high-level effect techniques to low-level GLSL optimization.
 
 
