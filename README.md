@@ -48,7 +48,7 @@ A curated list of various learning resources for computer graphics on mobile dev
 
 ## Arm Mali
 
-* [Mali GPU Training](https://developer.arm.com/solutions/graphics-and-gaming/arm-mali-gpu-training) - A comprehensive training series from mobile graphics fundamentals to performance analysis.
+* [Mali GPU Training](https://youtube.com/playlist?list=PLKjl7IFAwc4QUTejaX2vpIwXstbgf8Ik7) - A comprehensive training series from mobile graphics fundamentals to performance analysis.
 * [Graphics and Gaming Development](https://developer.arm.com/solutions/graphics-and-gaming) - Official Mali developer resources.
 * [Arm Mali GPU Best Practices Developer Guide](https://developer.arm.com/documentation/101897/latest) - A complete guide for Mali graphics programming with OpenGL ES and Vulkan.
 * [Mali GPU OpenGL ES 3.x Developer Guide](https://developer.arm.com/documentation/100587/0100/introduction) - An introductory guide for Pixel Local Storage, ASTC, and other 3.x features.
