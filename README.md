@@ -44,7 +44,7 @@ A curated list of various learning resources for computer graphics on mobile dev
 
 * [Vulkan Usage Recommendations](https://developer.samsung.com/game/usage) - Effective guidelines for Vulkan API.
 * [Introduction to Vulkan Render Passes](https://developer.samsung.com/game/renderpasses) - A detailed note about how to use render passes in Vulkan API.
-* [Getting Faster and Leaner on Mobile: Optimizing Roblox with Vulkan](https://robloxtechblog.com/getting-faster-and-leaner-on-mobile-optimizing-roblox-with-vulkan-7c79950fef69) by Arseny Kapoulkine - Informative optimization experiences with several concrete examples.
+* [Getting Faster and Leaner on Mobile: Optimizing Roblox with Vulkan](https://medium.com/@zeuxcg/getting-faster-and-leaner-on-mobile-optimizing-roblox-with-vulkan-7c79950fef69) by Arseny Kapoulkine - Informative optimization experiences with several concrete examples.
 
 ## Arm Mali
 
@@ -59,14 +59,14 @@ A curated list of various learning resources for computer graphics on mobile dev
 
 ## Qualcomm Adreno
 
-* [Game Developer Guides.](https://developer.qualcomm.com/sites/default/files/docs/adreno-gpu/developer-guide/)
-  * [Practical Shader Optimization Tips on Adreno Architectures.](https://developer.qualcomm.com/sites/default/files/docs/adreno-gpu/developer-guide/gpu/best_practices_shaders.html)
-* [OpenCL General Programming and Optimization Guide.](https://developer.qualcomm.com/download/adrenosdk/adreno-opencl-programming-guide.pdf)
+* [Game Developer Guides](https://developer.qualcomm.com/sites/default/files/docs/adreno-gpu/snapdragon-game-toolkit/learn_guides.html) - A best practice for Adreno graphics programming with OpenGL ES and Vulkan.
+  * [Practical Shader Optimization Tips on Adreno Architectures.](https://developer.qualcomm.com/sites/default/files/docs/adreno-gpu/snapdragon-game-toolkit/gdg/gpu/best_practices_shaders.html)
+* [OpenCL General Programming and Optimization Guide.](https://developer.qualcomm.com/qfile/33472/80-nb295-11_a.pdf)
 
 ## Imagination PowerVR
 
 * [Architecture Guides.](https://github.com/powervr-graphics/Native_SDK/tree/R21.1-v5.7/docs/Architecture%20Guides)
-* [Performance Recommendations](https://docs.imgtec.com/Profiling_and_Optimisations/PerfRec/topics/c_PerfRec_introduction.html) - An informative recommendations range from high-level effect techniques to low-level GLSL optimization.
+* [Performance Recommendations](https://docs.imgtec.com/performance-guides/performance-recommendations/topics/introduction.html) - An informative recommendations range from high-level effect techniques to low-level GLSL optimization.
 
 
 ## Apple
@@ -77,7 +77,7 @@ A curated list of various learning resources for computer graphics on mobile dev
 
 # Conferences
 
-* [Moving Mobile Graphics,](https://community.arm.com/graphics/b/blog/posts/moving-mobile-graphics) SIGGRAPH Course Notes - Technical and inspirational talks from practitioners at the forefront.
+* [Moving Mobile Graphics,](https://community.arm.com/arm-community-blogs/b/graphics-gaming-and-vr-blog/posts/moving-mobile-graphics) SIGGRAPH Course Notes - Technical and inspirational talks from practitioners at the forefront.
   * Video recordings: [2020,](https://www.youtube.com/watch?v=wOBCWZJq6zs) [2018,](https://dl.acm.org/doi/10.1145/3214834.3214857) [2016,](https://dl.acm.org/doi/10.1145/2897826.2927312) [2015.](https://dl.acm.org/doi/10.1145/2776880.2787664)
 * [Event Archive from Galaxy GameDev](https://developer.samsung.com/galaxy-gamedev/event-archive.html) - Quite a few collected slides and videos from conference talks at GDC, Unreal Summit, Unity Unite, etc.
 * Vulkanised - Informative best and worst practices from game devs pioneering with Vulkan
@@ -88,7 +88,7 @@ A curated list of various learning resources for computer graphics on mobile dev
 ## OpenGL ES
 
 * [Mali OpenGL ES SDK for Android.](https://github.com/ARM-software/opengl-es-sdk-for-android)
-* [Adreno SDK for OpenGL ES.](https://developer.qualcomm.com/sites/default/files/docs/adreno-gpu/developer-guide/components/asdkgles.html)
+* [Adreno SDK for OpenGL ES.](https://developer.qualcomm.com/software/adreno-gpu-sdk)
 * [PowerVR OpenGL ES Examples.](https://github.com/powervr-graphics/Native_SDK/tree/master/examples/OpenGLES)
 
 ## Vulkan
@@ -101,7 +101,7 @@ A curated list of various learning resources for computer graphics on mobile dev
 
 * [RenderDoc](https://renderdoc.org/) ([video tutorials](https://youtube.com/playlist?list=PLWziqE5d25dXo1IE150YJiPT9EIW8ymta)) - A lightweight, reliable and developer friendly debugger for quick frame diagnosis.
 * [Principles of High Performance](https://developer.arm.com/solutions/graphics-and-gaming/developer-guides/learn-the-basics/principles-of-high-performance/single-page) - Core ideas for mobile app optimization.
-* [Optimization Checklist](https://developer.arm.com/documentation/dui0555/b/optimization-checklist/the-checklist?lang=en) - A handy checklist for common performance bottlenecks.
+* ~~[Optimization Checklist](https://developer.arm.com/documentation/dui0555/b/optimization-checklist/the-checklist?lang=en) - A handy checklist for common performance bottlenecks.~~
 
 ## Android
 
@@ -118,7 +118,7 @@ A curated list of various learning resources for computer graphics on mobile dev
 
 ## Mali
 * [Arm Mobile Studio](https://developer.arm.com/tools-and-software/graphics-and-gaming/arm-mobile-studio) ([video tutorial](https://www.youtube.com/watch?v=gcxIuwBZyic)) - A developer suite contains graphics analyzer, GPU profiler and performance advisor.
-* [Android performance triage with Streamline](https://developer.arm.com/tools-and-software/graphics-and-gaming/arm-mobile-studio/learn/tutorials/android-performance-triage-with-streamline) - A step-by-step diagnosis guide to identify performance problem.
+* [Android performance triage with Streamline](https://developer.arm.com/documentation/102540/latest) - A step-by-step diagnosis guide to identify performance problem.
 * [Accelerating Mali GPU analysis using Streamline](https://community.arm.com/developer/tools-software/graphics/b/blog/posts/accelerating-mali-gpu-analysis-using-arm-mobile-studio) by Peter Harris - A quick overview of using Streamline template charts.
 * [Workload Pipelining](https://developer.arm.com/solutions/graphics-and-gaming/developer-guides/learn-the-basics/workload-pipelining/single-page) - A clear illustration of various pipeline bottlenecks.
 * [Frame Pipelining](https://community.arm.com/developer/tools-software/graphics/b/blog/posts/the-mali-gpu-an-abstract-machine-part-1---frame-pipelining) by Peter Harris - A lucid explanation of   asynchronous execution of rendering pipeline beneath GL APIs.
@@ -128,7 +128,7 @@ A curated list of various learning resources for computer graphics on mobile dev
 ## Adreno
 
 * [Snapdragon Profiler.](https://developer.qualcomm.com/software/snapdragon-profiler)
-* [Available Functionality for Supported Texture Format.](https://developer.qualcomm.com/sites/default/files/docs/adreno-gpu/developer-guide/gpu/spec_sheets.html#texture-formats)
+* [Available Functionality for Supported Texture Format.](https://developer.qualcomm.com/sites/default/files/docs/adreno-gpu/snapdragon-game-toolkit/gdg/gpu/spec_sheets.html#texture-formats)
 <!-- * [Identify Application Bottlenecks.](https://developer.qualcomm.com/sites/default/files/docs/adreno-gpu/developer-guide/tutorials/android/identify_application_bottlenecks.html) -->
 
 ## Unreal
