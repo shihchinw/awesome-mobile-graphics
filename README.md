@@ -101,13 +101,13 @@ A curated list of various learning resources for computer graphics on mobile dev
 
 * [RenderDoc](https://renderdoc.org/) ([video tutorials](https://youtube.com/playlist?list=PLWziqE5d25dXo1IE150YJiPT9EIW8ymta)) - A lightweight, reliable and developer friendly debugger for quick frame diagnosis.
 * [Principles of High Performance](https://developer.arm.com/solutions/graphics-and-gaming/developer-guides/learn-the-basics/principles-of-high-performance/single-page) - Core ideas for mobile app optimization.
-* ~~[Optimization Checklist](https://developer.arm.com/documentation/dui0555/b/optimization-checklist/the-checklist?lang=en) - A handy checklist for common performance bottlenecks.~~
+* [Basic Optimization Checklist](https://developer.arm.com/documentation/101897/0300/Optimization-basics/Basic-optimization-checklist) - A handy checklist for common performance bottlenecks.
 
 ## Android
 
 * [Game Development Guides on Android,](https://developer.android.com/games/guides) including tools, libraries, best practices, etc.
-* [Modern Android Development Skills on Performance](https://www.youtube.com/playlist?list=PLWz5rJ2EKKc-xjSI-rWn9SViXivBhQUnp) - A video series of brief overviews on various profiling tools on Android.
-* [Android GPU Inspector](https://developer.android.com/agi) - A unified profiler for various GPU IPs on Android.
+* [Modern Android Development Skills on Performance](https://www.youtube.com/playlist?list=PLWz5rJ2EKKc-xjSI-rWn9SViXivBhQUnp) - A video series of brief overviews on various profiling tools (ex. Systrace, Perfetto, etc.) on Android.
+* [Android GPU Inspector](https://developer.android.com/agi) - A unified profiler for various GPU IPs on Android (only for few [supported devices](https://developer.android.com/agi/supported-devices) currently).
   * [Analyze a System Trace](https://developer.android.com/agi/sys-trace/long) - A comprehensive tutorial of system inspection.
 * [System Tracing](https://developer.android.com/topic/performance/tracing)
   * [Android Profiler](https://developer.android.google.cn/studio/profile/android-profiler) - Tools for inspecting usage of CPU, memory, network, and battery resources.
@@ -121,24 +121,26 @@ A curated list of various learning resources for computer graphics on mobile dev
 * [Android performance triage with Streamline](https://developer.arm.com/documentation/102540/latest) - A step-by-step diagnosis guide to identify performance problem.
 * [Accelerating Mali GPU analysis using Streamline](https://community.arm.com/developer/tools-software/graphics/b/blog/posts/accelerating-mali-gpu-analysis-using-arm-mobile-studio) by Peter Harris - A quick overview of using Streamline template charts.
 * [Workload Pipelining](https://developer.arm.com/solutions/graphics-and-gaming/developer-guides/learn-the-basics/workload-pipelining/single-page) - A clear illustration of various pipeline bottlenecks.
-* [Frame Pipelining](https://community.arm.com/developer/tools-software/graphics/b/blog/posts/the-mali-gpu-an-abstract-machine-part-1---frame-pipelining) by Peter Harris - A lucid explanation of   asynchronous execution of rendering pipeline beneath GL APIs.
-* [Mali GPU Performance Counters.](https://developer.arm.com/ip-products/graphics-and-multimedia/mali-gpus/mali-performance-counters)
+* [Frame Pipelining](https://community.arm.com/developer/tools-software/graphics/b/blog/posts/the-mali-gpu-an-abstract-machine-part-1---frame-pipelining) by Peter Harris - A lucid explanation of asynchronous execution of rendering pipeline beneath GL APIs.
+* Mali GPU Performance Counters: [G715](https://developer.arm.com/documentation/107776/0100/?lang=en), [G710](https://developer.arm.com/documentation/102813/0102/?lang=en), and <a href="https://developer.arm.com/documentation#f[navigationhierarchiescontenttype]=Performance%20Counters%20Guide">others.</a>
 * [Mali GPU Datasheet.](https://developer.arm.com/documentation/102849/0100/?lang=en)
 
 ## Adreno
 
 * [Snapdragon Profiler.](https://developer.qualcomm.com/software/snapdragon-profiler)
+* [Identify application bottlenecks](https://developer.qualcomm.com/sites/default/files/docs/adreno-gpu/snapdragon-game-toolkit/gdg/tutorials/android/identify_application_bottlenecks.html#identify-application-bottlenecks) by using Snapdragon Trace Capture.
 * [Available Functionality for Supported Texture Format.](https://developer.qualcomm.com/sites/default/files/docs/adreno-gpu/snapdragon-game-toolkit/gdg/gpu/spec_sheets.html#texture-formats)
-<!-- * [Identify Application Bottlenecks.](https://developer.qualcomm.com/sites/default/files/docs/adreno-gpu/developer-guide/tutorials/android/identify_application_bottlenecks.html) -->
 
 ## Unreal
 
+* [Maximizing Your Game's Performance in Unreal Engine](https://www.youtube.com/watch?v=GuIav71867E) by Ari Arnbjörnsson - An engaging with 4 concrete examples by using built-in tools of UE5. (Few tool configs are desktop-only, but still worth watching.)
 * [Profiling and Optimization in UE4](https://www.youtube.com/watch?v=EbXakIuZPFo) by Paulo Souza - An introductory tutorial for identifying performance problems.
 * [UE4 Performance and Profiling](https://www.youtube.com/watch?v=hcxetY8g_fs) by Zak Parrish - Comprehensive guidelines for optimization process.
 * [UE4 Graphics Profiling](https://www.youtube.com/playlist?list=PLF8ktr3i-U4A7vuQ6TXPr3f-bhmy6xM3S) by Tech Art Aid - A well organized and informative tutorial series for beginners.
 
 ## Unity
 
+* [Ultimate guide to profiling Unity games](https://resources.unity.com/games/ultimate-guide-to-profiling-unity-games) - A 70+ page guide on profiling workflow with built-in tools of Unity.
 * [Introduction to Profiling in Unity](https://www.youtube.com/watch?v=uXRURWwabF4) by Ciro Continisio - A beginner tutorial on CPU profiler and frame debugger.
 * [Tackling Profiling for Mobile Games with Unity and Arm](https://blogs.unity3d.com/2021/03/11/tackling-profiling-for-mobile-games-with-unity-and-arm/) by Mark Harkness - A crisp introduction to mobile game optimization with various tools.
 * [Better Together: Integrating Arm Mobile Studio with Unity](https://community.arm.com/developer/tools-software/graphics/b/blog/posts/integrating-arm-mobile-studio-with-unity) by Geraint North - A concrete example of how Streamline annotations make better data interpretation.
