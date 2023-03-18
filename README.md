@@ -32,6 +32,7 @@ A curated list of various learning resources for computer graphics on mobile dev
 * [Game Asset Optimizations](https://developer.samsung.com/game/asset) - Informative tips for app deployment and run-time performance.
 * [Geometry Best Practices](https://developer.arm.com/solutions/graphics-and-gaming/developer-guides/game-artist-guides/geometry-best-practices/single-page) - Tips to strike a balance between geometry complexity and visual quality with lots of illustrations.
 * [Textures Best Practices](https://developer.arm.com/solutions/graphics-and-gaming/developer-guides/game-artist-guides/texture-best-practices/single-page) - A number of texturing tips help apps run smoother and look better.
+* [Optimizing Assets for Mobile VR](https://www.youtube.com/watch?v=3JCg62e9zdA) - General tips on game asset optimization for mobile platforms.
 * [Understanding Numerical Precision](https://developer.arm.com/solutions/graphics-and-gaming/developer-guides/learn-the-basics/understanding-numerical-precision/single-page) - A brief guide to properly choose numerical precision and to preserve accuracy of the numbers.
 * [Cramming Software onto Mobile GPUs](https://community.arm.com/cfs-file/__key/communityserver-blogs-components-weblogfiles/00-00-00-20-66/siggraph2015_2D00_mmg_2D00_andrew_2D00_slides.ppt) by Andrew Garrard - Various essential techniques to well utilize mobile hardware.
 
@@ -44,6 +45,7 @@ A curated list of various learning resources for computer graphics on mobile dev
 
 * [Vulkan Usage Recommendations](https://developer.samsung.com/game/usage) - Effective guidelines for Vulkan API.
 * [Introduction to Vulkan Render Passes](https://developer.samsung.com/game/renderpasses) - A detailed note about how to use render passes in Vulkan API.
+* [Vulkan FAQ for Mobile Developers.](https://arm-software.github.io/vulkan_best_practice_for_mobile_developers/docs/faq.html)
 * [Getting Faster and Leaner on Mobile: Optimizing Roblox with Vulkan](https://medium.com/@zeuxcg/getting-faster-and-leaner-on-mobile-optimizing-roblox-with-vulkan-7c79950fef69) by Arseny Kapoulkine - Informative optimization experiences with several concrete examples.
 
 ## Arm Mali
@@ -81,7 +83,7 @@ A curated list of various learning resources for computer graphics on mobile dev
   * Video recordings: [2020,](https://www.youtube.com/watch?v=wOBCWZJq6zs) [2018,](https://dl.acm.org/doi/10.1145/3214834.3214857) [2016,](https://dl.acm.org/doi/10.1145/2897826.2927312) [2015.](https://dl.acm.org/doi/10.1145/2776880.2787664)
 * [Event Archive from Galaxy GameDev](https://developer.samsung.com/galaxy-gamedev/event-archive.html) - Quite a few collected slides and videos from conference talks at GDC, Unreal Summit, Unity Unite, etc.
 * Vulkanised - Informative best and worst practices from game devs pioneering with Vulkan
-  * Video recordings: [2022,](https://www.khronos.org/events/vulkanised-webinar-february-2022) [2021,](https://www.khronos.org/events/vulkanised-2021) [2019,](https://www.khronos.org/developers/library/2019-vulkanised-is-back) [2017.](https://www.khronos.org/events/vulkanised-experience-from-game-devs-pioneering-with-vulkan1)
+  * Video recordings: [2023,](https://vulkan.org/events/vulkanised-2023#talks) [2022,](https://www.khronos.org/events/vulkanised-webinar-february-2022) [2021,](https://www.khronos.org/events/vulkanised-2021) [2019,](https://www.khronos.org/developers/library/2019-vulkanised-is-back) [2017.](https://www.khronos.org/events/vulkanised-experience-from-game-devs-pioneering-with-vulkan1)
 
 # Sample Code
 
