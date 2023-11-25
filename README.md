@@ -30,8 +30,8 @@ A curated list of various learning resources for computer graphics on mobile dev
 # Best Practices
 
 * [Game Asset Optimizations](https://developer.samsung.com/game/asset) - Informative tips for app deployment and run-time performance.
-* [Geometry Best Practices](https://developer.arm.com/solutions/graphics-and-gaming/developer-guides/game-artist-guides/geometry-best-practices/single-page) - Tips to strike a balance between geometry complexity and visual quality with lots of illustrations.
-* [Textures Best Practices](https://developer.arm.com/solutions/graphics-and-gaming/developer-guides/game-artist-guides/texture-best-practices/single-page) - A number of texturing tips help apps run smoother and look better.
+* [Geometry Best Practices](https://developer.arm.com/documentation/102448/0200) - Tips to strike a balance between geometry complexity and visual quality with lots of illustrations.
+* [Textures Best Practices](https://developer.arm.com/documentation/102449/0200) - A number of texturing tips help apps run smoother and look better.
 * [Optimizing Assets for Mobile VR](https://www.youtube.com/watch?v=3JCg62e9zdA) - General tips on game asset optimization for mobile platforms.
 * [Understanding Numerical Precision](https://developer.arm.com/solutions/graphics-and-gaming/developer-guides/learn-the-basics/understanding-numerical-precision/single-page) - A brief guide to properly choose numerical precision and to preserve accuracy of the numbers.
 * [Cramming Software onto Mobile GPUs](https://community.arm.com/cfs-file/__key/communityserver-blogs-components-weblogfiles/00-00-00-20-66/siggraph2015_2D00_mmg_2D00_andrew_2D00_slides.ppt) by Andrew Garrard - Various essential techniques to well utilize mobile hardware.
@@ -53,7 +53,7 @@ A curated list of various learning resources for computer graphics on mobile dev
 * [Mali GPU Training](https://youtube.com/playlist?list=PLKjl7IFAwc4QUTejaX2vpIwXstbgf8Ik7) - A comprehensive training series from mobile graphics fundamentals to performance analysis.
 * [Graphics and Gaming Development](https://developer.arm.com/solutions/graphics-and-gaming) - Official Mali developer resources.
 * [Arm Mali GPU Best Practices Developer Guide](https://developer.arm.com/documentation/101897/latest) - A complete guide for Mali graphics programming with OpenGL ES and Vulkan.
-* [Mali GPU OpenGL ES 3.x Developer Guide](https://developer.arm.com/documentation/100587/0100/introduction) - An introductory guide for Pixel Local Storage, ASTC, and other 3.x features.
+* [Mali GPU OpenGL ES 3.x Developer Guide](https://developer.arm.com/documentation/100587/0101/introduction) - An introductory guide for Pixel Local Storage, ASTC, and other 3.x features.
 * [Understanding Render Passes](https://developer.arm.com/documentation/102479/0100) - Practical guides for efficient render passes with Vulkan and OpenGL ES.
 * [The Benefits of Buffer Packing](https://developer.arm.com/solutions/graphics-and-gaming/developer-guides/learn-the-basics/the-benefits-of-buffer-packing/single-page) - Several performance tips related to bandwidth usage saving.
 * [Using Asynchronous Compute on Arm Mali GPUs: A Practical Sample](https://community.arm.com/developer/tools-software/graphics/b/blog/posts/using-asynchronous-compute-on-arm-mali-gpus) by Hans-Kristian Arntzen - An informative introduction to async-compute scheduling on Mali devices.
@@ -67,13 +67,12 @@ A curated list of various learning resources for computer graphics on mobile dev
 
 ## Imagination PowerVR
 
-* [Architecture Guides.](https://github.com/powervr-graphics/Native_SDK/tree/R21.1-v5.7/docs/Architecture%20Guides)
-* [Performance Recommendations](https://docs.imgtec.com/performance-guides/performance-recommendations/topics/introduction.html) - An informative recommendations range from high-level effect techniques to low-level GLSL optimization.
-
+* [Developer Documentation](https://docs.imgtec.com/html/index.html)
+* [Performance Recommendations](https://docs.imgtec.com/performance-guides/performance-recommendations/html/topics/introduction.html) - An informative recommendations range from high-level effect techniques to low-level GLSL optimization.
 
 ## Apple
 
-* [Metal Video Learning Resources.](https://developer.apple.com/videos/graphics-and-games/metal)
+* [Metal Video Learning Resources.](https://developer.apple.com/videos/graphics-games)
 * [Modern Rendering with Metal](https://developer.apple.com/videos/play/wwdc2019/601/) - Demonstration of how to apply Metal features to implement deferred and tiled-forward rendering.
 <!-- * [Ray Tracing with Metal](https://developer.apple.com/videos/play/wwdc2019/613/) -->
 
@@ -103,7 +102,7 @@ A curated list of various learning resources for computer graphics on mobile dev
 
 * [RenderDoc](https://renderdoc.org/) ([video tutorials](https://youtube.com/playlist?list=PLWziqE5d25dXo1IE150YJiPT9EIW8ymta)) - A lightweight, reliable and developer friendly debugger for quick frame diagnosis.
 * [Principles of High Performance](https://developer.arm.com/solutions/graphics-and-gaming/developer-guides/learn-the-basics/principles-of-high-performance/single-page) - Core ideas for mobile app optimization.
-* [Basic Optimization Checklist](https://developer.arm.com/documentation/101897/0300/Optimization-basics/Basic-optimization-checklist) - A handy checklist for common performance bottlenecks.
+* [Basic Optimization Checklist](https://developer.arm.com/documentation/101897/0301/Optimization-basics/Basic-optimization-checklist) - A handy checklist for common performance bottlenecks.
 
 ## Android
 
