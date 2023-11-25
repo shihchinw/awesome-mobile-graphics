@@ -51,6 +51,7 @@ A curated list of various learning resources for computer graphics on mobile dev
 ## Arm Mali
 
 * [Mali GPU Training](https://youtube.com/playlist?list=PLKjl7IFAwc4QUTejaX2vpIwXstbgf8Ik7) - A comprehensive training series from mobile graphics fundamentals to performance analysis.
+* Mali Optimization Resources with [Unreal](https://www.arm.com/resources/unreal) and [Unity](https://www.arm.com/resources/unity) - Introductory guidelines for profiling games and optimizing artwork.
 * [Graphics and Gaming Development](https://developer.arm.com/solutions/graphics-and-gaming) - Official Mali developer resources.
 * [Arm Mali GPU Best Practices Developer Guide](https://developer.arm.com/documentation/101897/latest) - A complete guide for Mali graphics programming with OpenGL ES and Vulkan.
 * [Mali GPU OpenGL ES 3.x Developer Guide](https://developer.arm.com/documentation/100587/0101/introduction) - An introductory guide for Pixel Local Storage, ASTC, and other 3.x features.
@@ -123,7 +124,7 @@ A curated list of various learning resources for computer graphics on mobile dev
 * [Accelerating Mali GPU analysis using Streamline](https://community.arm.com/developer/tools-software/graphics/b/blog/posts/accelerating-mali-gpu-analysis-using-arm-mobile-studio) by Peter Harris - A quick overview of using Streamline template charts.
 * [Workload Pipelining](https://developer.arm.com/solutions/graphics-and-gaming/developer-guides/learn-the-basics/workload-pipelining/single-page) - A clear illustration of various pipeline bottlenecks.
 * [Frame Pipelining](https://community.arm.com/developer/tools-software/graphics/b/blog/posts/the-mali-gpu-an-abstract-machine-part-1---frame-pipelining) by Peter Harris - A lucid explanation of asynchronous execution of rendering pipeline beneath GL APIs.
-* Mali GPU Performance Counters: [G715](https://developer.arm.com/documentation/107776/0100/?lang=en), [G710](https://developer.arm.com/documentation/102813/0102/?lang=en), and <a href="https://developer.arm.com/documentation#f[navigationhierarchiescontenttype]=Performance%20Counters%20Guide">others.</a>
+* Mali GPU Performance Counters: [G720](https://developer.arm.com/documentation/108081/0101/Arm--Immortalis-G720-and-Mali-G720-GPU-performance-counters?lang=en), [G715](https://developer.arm.com/documentation/107776/0100/?lang=en), [G710](https://developer.arm.com/documentation/102813/0102/?lang=en), and <a href="https://developer.arm.com/documentation#f[navigationhierarchiescontenttype]=Performance%20Counters%20Guide">others.</a>
 * [Mali GPU Datasheet.](https://developer.arm.com/documentation/102849/0100/?lang=en)
 
 ## Adreno
