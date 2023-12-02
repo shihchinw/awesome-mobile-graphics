@@ -27,6 +27,10 @@ A curated list of various learning resources for computer graphics on mobile dev
 * [Tile-based Rendering](https://developer.arm.com/solutions/graphics-and-gaming/developer-guides/learn-the-basics/tile-based-rendering/single-page) - A concise introduction to different rendering architectures with brief comparative analysis.
 * [Mobile GPU Approaches to Power Efficiency](https://www.highperformancegraphics.org/wp-content/uploads/2019/hot3d/mobile_gpu_power_and_performance.pdf) by Andrew Gruber - An overview of power efficiency in terms of memory system, render pipeline, etc.
 
+## Vulkan
+* [Vulkan Tutorial](https://www.khronos.org/assets/uploads/developers/library/2016-vulkan-devu-seoul/1-Vulkan-Tutorial_English.pdf) by Hyokuen Lee, Minwook Kim - Instructive slides for rendering a textured quad from the ground up.
+* [Introduction to Vulkan Render Passes](https://developer.samsung.com/game/renderpasses) - A detailed note about how to use render passes in Vulkan API.
+
 # Best Practices
 
 * [Game Asset Optimizations](https://developer.samsung.com/game/asset) - Informative tips for app deployment and run-time performance.
@@ -44,9 +48,16 @@ A curated list of various learning resources for computer graphics on mobile dev
 ## Vulkan
 
 * [Vulkan Usage Recommendations](https://developer.samsung.com/game/usage) - Effective guidelines for Vulkan API.
-* [Introduction to Vulkan Render Passes](https://developer.samsung.com/game/renderpasses) - A detailed note about how to use render passes in Vulkan API.
 * [Vulkan FAQ for Mobile Developers.](https://arm-software.github.io/vulkan_best_practice_for_mobile_developers/docs/faq.html)
+* [Vulkan Case Study](https://www.khronos.org/assets/uploads/developers/library/2016-vulkan-devu-seoul/2-Vulkan-Case-Study.pdf) by Soowan Park, Joonyong Park - Informative dev tips related to swapchain, uniform buffer and rendering.
+  * [More experiments on uniform buffer management](https://youtu.be/y-EBiswp3qU?t=915) ([slides](https://www.khronos.org/assets/uploads/developers/library/2017-gdc/GDC_Vulkan-on-Mobile_Vulkan-Game-Development-in-Mobile-Samsung_Mar17.pdf)) by Soowan Park.
+* [Vulkan Samples](https://github.com/KhronosGroup/Vulkan-Samples/blob/main/samples/README.adoc) - Comprehensive resources of case study and best practices.
+  * [Surface Rotation](https://github.com/KhronosGroup/Vulkan-Samples/blob/main/samples/performance/surface_rotation/README.adoc) - How appropriately use surface rotation, which was handled transparently by OpenGL ES driver.
+  * [Render passes](https://github.com/KhronosGroup/Vulkan-Samples/blob/main/samples/performance/render_passes/README.adoc) - How attachment load/store operations might affect performance.
+  * [Subpasses](https://github.com/KhronosGroup/Vulkan-Samples/blob/main/samples/performance/subpasses/README.adoc) - How tile-based renderer might save bandwidth.
+  * [Pipeline Barriers](https://github.com/KhronosGroup/Vulkan-Samples/blob/main/samples/performance/pipeline_barriers/README.adoc) - How efficiently set up pipeline barriers, with a focus on pipeline stages.
 * [Getting Faster and Leaner on Mobile: Optimizing Roblox with Vulkan](https://medium.com/@zeuxcg/getting-faster-and-leaner-on-mobile-optimizing-roblox-with-vulkan-7c79950fef69) by Arseny Kapoulkine - Informative optimization experiences with several concrete examples.
+  * Optimizing Roblox: Vulkan Best Practices for Mobile Developers ([slides](https://zeux.io/data/gdc2020_arm.pdf), [video](https://www.gdcvault.com/play/1026767/Optimizing-Roblox-Vulkan-Best-Practices)), GDC 2020.
 
 ## Arm Mali
 
