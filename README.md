@@ -116,6 +116,11 @@ A curated list of various learning resources for computer graphics on mobile dev
 * [Principles of High Performance](https://developer.arm.com/solutions/graphics-and-gaming/developer-guides/learn-the-basics/principles-of-high-performance/single-page) - Core ideas for mobile app optimization.
 * [Basic Optimization Checklist](https://developer.arm.com/documentation/101897/0301/Optimization-basics/Basic-optimization-checklist) - A handy checklist for common performance bottlenecks.
 
+## Vulkan
+* [Vulkan Ecosystem Developer Tools](https://www.youtube.com/watch?v=jItHShexBf4&t=14403s) ([slides](https://www.lunarg.com/wp-content/uploads/2023/05/Vulkan-Ecosystem-Developer-Tools-Osaka-MAY2023.pdf)) by Spencer Fricke - A quick roll call of available dev-tools to prevent reinventing the wheel.
+* [Using Vulkan Validation Effectively](https://www.youtube.com/watch?v=jItHShexBf4&t=10224s) ([slides](https://www.lunarg.com/wp-content/uploads/2023/11/Using-Vulkan-Validation-Effectively-Osaka.pdf)) by Spencer Fricke - An instructive guide for using validation layer and debug utilities extension.
+* [Introduction to Using SPIR-V](https://www.youtube.com/watch?v=jItHShexBf4&t=13229s) ([slides](https://www.lunarg.com/wp-content/uploads/2023/05/SPIRV-Osaka-MAY2023.pdf)) by Spencer Fricke - A quick start guide for learning how to read and understand SPIR-V.
+
 ## Android
 
 * [Game Development Guides on Android,](https://developer.android.com/games/guides) including tools, libraries, best practices, etc.
@@ -126,6 +131,9 @@ A curated list of various learning resources for computer graphics on mobile dev
   * [Android Profiler](https://developer.android.google.cn/studio/profile/android-profiler) - Tools for inspecting usage of CPU, memory, network, and battery resources.
   * [Systrace for Games](https://www.youtube.com/watch?v=4oAlB-3tkqc) by Tim Murray - An introductory video tutorial with case studies.
   * [Improve Game Performance on Android](https://developer.android.com/games/optimize#improve-performance-areas) - Tips for identifying and improving various aspects of common performance concerns in mobile games.
+* [Android Vulkan layers](https://solidpixel.github.io/2022/04/20/android_vulkan_layers.html) by Peter Harris - A quick recipe to get Vulkan validation layers working for Android applications.
+* [Enable Vulkan Layers Outside the Application](https://developer.android.com/ndk/guides/graphics/validation-layer#enable-layers-outside-app) - Instructions for enabling layers with adb commands.
+* [Enable Vulkan Debug Callback on Android](https://developer.android.com/ndk/guides/graphics/validation-layer#enable_the_debug_callback) - Example code snippets for enablement.
 <!-- * [Perfetto](https://perfetto.dev/docs/) - An open-source stack for system profiling, app tracing and trace analysis. -->
 <!-- * [Android Game Development Extension for Visual Studio](https://developer.android.com/games/agde/quickstart?hl=en) -->
 
