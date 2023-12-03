@@ -5,7 +5,7 @@ A curated list of various learning resources for computer graphics on mobile dev
 - [Fundamentals](#fundamentals)
 - [Best Practices](#best-practices)
   - [OpenGL ES](#opengl-es)
-  - [Vulkan](#vulkan)
+  - [Vulkan](#vulkan-1)
   - [Arm Mali](#arm-mali)
   - [Qualcomm Adreno](#qualcomm-adreno)
   - [Imagination PowerVR](#imagination-powervr)
@@ -13,8 +13,9 @@ A curated list of various learning resources for computer graphics on mobile dev
 - [Conferences](#conferences)
 - [Sample Code](#sample-code)
   - [OpenGL ES](#opengl-es-1)
-  - [Vulkan](#vulkan-1)
-- [Profiling & Debugging](#profiling--debugging)
+  - [Vulkan](#vulkan-2)
+- [Profiling \& Debugging](#profiling--debugging)
+  - [Vulkan](#vulkan-3)
   - [Android](#android)
   - [Mali](#mali)
   - [Adreno](#adreno)
@@ -154,7 +155,7 @@ A curated list of various learning resources for computer graphics on mobile dev
 
 ## Unreal
 
-* [Maximizing Your Game's Performance in Unreal Engine](https://www.youtube.com/watch?v=GuIav71867E) by Ari Arnbjörnsson - An engaging with 4 concrete examples by using built-in tools of UE5. (Few tool configs are desktop-only, but still worth watching.)
+* [Maximizing Your Game's Performance in Unreal Engine](https://www.youtube.com/watch?v=GuIav71867E) by Ari Arnbjörnsson - An engaging talk with 4 concrete examples by using built-in tools of UE5. (Few tool configs are desktop-only, but still worth watching.)
 * [Profiling and Optimization in UE4](https://www.youtube.com/watch?v=EbXakIuZPFo) by Paulo Souza - An introductory tutorial for identifying performance problems.
 * [UE4 Performance and Profiling](https://www.youtube.com/watch?v=hcxetY8g_fs) by Zak Parrish - Comprehensive guidelines for optimization process.
 * [UE4 Graphics Profiling](https://www.youtube.com/playlist?list=PLF8ktr3i-U4A7vuQ6TXPr3f-bhmy6xM3S) by Tech Art Aid - A well organized and informative tutorial series for beginners.
