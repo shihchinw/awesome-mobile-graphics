@@ -95,7 +95,7 @@ A curated list of various learning resources for computer graphics on mobile dev
   * Video recordings: [2020,](https://www.youtube.com/watch?v=wOBCWZJq6zs) [2018,](https://dl.acm.org/doi/10.1145/3214834.3214857) [2016,](https://dl.acm.org/doi/10.1145/2897826.2927312) [2015.](https://dl.acm.org/doi/10.1145/2776880.2787664)
 * [Event Archive from Galaxy GameDev](https://developer.samsung.com/galaxy-gamedev/event-archive.html) - Quite a few collected slides and videos from conference talks at GDC, Unreal Summit, Unity Unite, etc.
 * Vulkanised - Informative best and worst practices from game devs pioneering with Vulkan
-  * Video recordings: [2023,](https://vulkan.org/events/vulkanised-2023#talks) [2022,](https://www.khronos.org/events/vulkanised-webinar-february-2022) [2021,](https://www.khronos.org/events/vulkanised-2021) [2019,](https://www.khronos.org/developers/library/2019-vulkanised-is-back) [2017.](https://www.khronos.org/events/vulkanised-experience-from-game-devs-pioneering-with-vulkan1)
+  * Video recordings: [2024,](https://vulkan.org/events/vulkanised-2024) [2023,](https://vulkan.org/events/vulkanised-2023#talks) [2022,](https://www.khronos.org/events/vulkanised-webinar-february-2022) [2021,](https://www.khronos.org/events/vulkanised-2021) [2019,](https://www.khronos.org/developers/library/2019-vulkanised-is-back) [2017.](https://www.khronos.org/events/vulkanised-experience-from-game-devs-pioneering-with-vulkan1)
 
 # Sample Code
 
@@ -139,7 +139,9 @@ A curated list of various learning resources for computer graphics on mobile dev
 <!-- * [Android Game Development Extension for Visual Studio](https://developer.android.com/games/agde/quickstart?hl=en) -->
 
 ## Mali
-* [Arm Mobile Studio](https://developer.arm.com/tools-and-software/graphics-and-gaming/arm-mobile-studio) ([video tutorial](https://www.youtube.com/watch?v=gcxIuwBZyic)) - A developer suite contains graphics analyzer, GPU profiler and performance advisor.
+* [Arm Performance Studio](https://developer.arm.com/Tools%20and%20Software/Arm%20Performance%20Studio%20for%20Mobile) - A developer suite contains GPU profiler, frame analyzer, and offline shader compiler.
+  * [Optimizing mobile games using Arm Mobile Studio](https://www.youtube.com/watch?v=gcxIuwBZyic) - A quick overview on performance optimization workflow.
+  * Educational [videos](https://on-demand.arm.com/flow/arm/devhub/sessionCatalog/page/pubSessCatalog?search.category=1680252620842003scxY) and step-by-step [tutorials](https://learn.arm.com/learning-paths/smartphones-and-mobile/) on Arm Developer Hub.
 * [Android performance triage with Streamline](https://developer.arm.com/documentation/102540/latest) - A step-by-step diagnosis guide to identify performance problem.
 * [Accelerating Mali GPU analysis using Streamline](https://community.arm.com/developer/tools-software/graphics/b/blog/posts/accelerating-mali-gpu-analysis-using-arm-mobile-studio) by Peter Harris - A quick overview of using Streamline template charts.
 * [Workload Pipelining](https://developer.arm.com/solutions/graphics-and-gaming/developer-guides/learn-the-basics/workload-pipelining/single-page) - A clear illustration of various pipeline bottlenecks.
