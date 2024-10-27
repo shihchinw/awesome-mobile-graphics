@@ -74,9 +74,9 @@ A curated list of various learning resources for computer graphics on mobile dev
 
 ## Qualcomm Adreno
 
-* [Game Developer Guides](https://developer.qualcomm.com/sites/default/files/docs/adreno-gpu/snapdragon-game-toolkit/learn_guides.html) - A best practice for Adreno graphics programming with OpenGL ES and Vulkan.
-  * [Practical Shader Optimization Tips on Adreno Architectures.](https://developer.qualcomm.com/sites/default/files/docs/adreno-gpu/snapdragon-game-toolkit/gdg/gpu/best_practices_shaders.html)
-* [OpenCL General Programming and Optimization Guide.](https://developer.qualcomm.com/qfile/33472/80-nb295-11_a.pdf)
+* [Game Developer Guides](https://docs.qualcomm.com/bundle/publicresource/topics/80-78185-2/best_practices.html) - A best practice for Adreno graphics programming with OpenGL ES and Vulkan.
+  * [Practical Shader Optimization Tips on Adreno Architectures.](https://docs.qualcomm.com/bundle/publicresource/topics/80-78185-2/best_practices.html#shaders-2)
+* [OpenCL General Programming and Optimization Guide.](https://docs.qualcomm.com/bundle/publicresource/80-NB295-11_REV_C_Qualcomm_Snapdragon_Mobile_Platform_Opencl_General_Programming_and_Optimization.pdf)
 
 ## Imagination PowerVR
 
