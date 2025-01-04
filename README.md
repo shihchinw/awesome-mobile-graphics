@@ -71,6 +71,7 @@ A curated list of various learning resources for computer graphics on mobile dev
 * [The Benefits of Buffer Packing](https://developer.arm.com/solutions/graphics-and-gaming/developer-guides/learn-the-basics/the-benefits-of-buffer-packing/single-page) - Several performance tips related to bandwidth usage saving.
 * [Using Asynchronous Compute on Arm Mali GPUs: A Practical Sample](https://community.arm.com/developer/tools-software/graphics/b/blog/posts/using-asynchronous-compute-on-arm-mali-gpus) by Hans-Kristian Arntzen - An informative introduction to async-compute scheduling on Mali devices.
 * [Deferred Shading on Mobile: An API Overview](https://community.arm.com/developer/tools-software/graphics/b/blog/posts/deferred-shading-on-mobile) by Hans-Kristian Arntzen - A crisp introduction to bandwidth saving techniques on deferred shading with various API options.
+* [Hidden Surface Removal in Immortalis-G925: The Fragment Prepass](https://community.arm.com/arm-community-blogs/b/graphics-gaming-and-vr-blog/posts/immortalis-g925-the-fragment-prepass) by Tord Øygard - An in-depth explanation on how Fragment Prepass works, along with best practices to avoid performance pitfalls.
 
 ## Qualcomm Adreno
 
@@ -146,8 +147,9 @@ A curated list of various learning resources for computer graphics on mobile dev
 * [Accelerating Mali GPU analysis using Streamline](https://community.arm.com/developer/tools-software/graphics/b/blog/posts/accelerating-mali-gpu-analysis-using-arm-mobile-studio) by Peter Harris - A quick overview of using Streamline template charts.
 * [Workload Pipelining](https://developer.arm.com/solutions/graphics-and-gaming/developer-guides/learn-the-basics/workload-pipelining/single-page) - A clear illustration of various pipeline bottlenecks.
 * [Frame Pipelining](https://community.arm.com/developer/tools-software/graphics/b/blog/posts/the-mali-gpu-an-abstract-machine-part-1---frame-pipelining) by Peter Harris - A lucid explanation of asynchronous execution of rendering pipeline beneath GL APIs.
-* Mali GPU Performance Counters: [G720](https://developer.arm.com/documentation/108081/0101/Arm--Immortalis-G720-and-Mali-G720-GPU-performance-counters?lang=en), [G715](https://developer.arm.com/documentation/107776/0100/?lang=en), [G710](https://developer.arm.com/documentation/102813/0102/?lang=en), and <a href="https://developer.arm.com/documentation#f[navigationhierarchiescontenttype]=Performance%20Counters%20Guide">others.</a>
-* [Mali GPU Datasheet.](https://developer.arm.com/documentation/102849/0100/?lang=en)
+* Mali GPU Performance Counters: [Immortalis-G925/Mali-G725](https://developer.arm.com/documentation/109793/0101/Arm--Immortalis-G925-and-Mali-G725-GPU-performance-counters?lang=en), [G720](https://developer.arm.com/documentation/108081/0101/Arm--Immortalis-G720-and-Mali-G720-GPU-performance-counters?lang=en), [G715](https://developer.arm.com/documentation/107776/0100/?lang=en), [G710](https://developer.arm.com/documentation/102813/0102/?lang=en), and <a href="https://developer.arm.com/documentation#f[navigationhierarchiescontenttype]=Performance%20Counters%20Guide">others.</a>
+* [Arm GPU Software Developer Errata Notice for Application Developers](https://developer.arm.com/documentation/SDEN-3735689/latest) - An informative document for known driver bugs, application workarounds and fixed driver version.
+* [Mali GPU Datasheet](https://developer.arm.com/documentation/102849/0100/?lang=en) - Reference datasheet for device properties such as 'Warp width', 'Max thread count', 'Tile bits/pixel', etc.
 
 ## Adreno
 
